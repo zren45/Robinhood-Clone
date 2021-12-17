@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .newsfeed {
   /* border: 1px solid tomato; */
   flex: 0.7;
@@ -75,3 +76,82 @@
 .MuiChip-root {
   font-size: 16px;
 }
+=======
+.newsfeed {
+  /* border: 1px solid tomato; */
+  flex: 0.7;
+  color: white;
+}
+.newsfeed__container {
+  flex: 1;
+  background-color: black;
+  font-size: 12px;
+}
+
+.newsfeed__chart {
+  width: 100%;
+}
+
+.newsfeed__portfolio {
+  text-align: left;
+}
+
+.newsfeed__portfolioHeading {
+  margin: 0;
+  font-size: 40px;
+}
+
+.newsfeed__portfolioParagraph {
+  margin-top: 12px;
+  margin-bottom: 24px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.newsfeed__buying__section {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #3b4754;
+  padding: 24px 0px 20px 0px;
+  font-weight: 400;
+}
+.newsfeed__buying__heading {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.newsfeed__popularlists__intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+  border-bottom: 1px solid #3b4754;
+  padding-bottom: 24px;
+}
+
+.newsfeed__popularlists__p {
+  font-size: 13px;
+}
+
+.newsfeed_popularlists_badges {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+.newsfeed_popularlists_badges .topic__badge {
+  border: 1px solid #31363a;
+  background-color: transparent;
+  color: white;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  margin: 5px;
+}
+
+.newsfeed__popularlists__heading {
+  font-size: 2rem;
+}
+
+.MuiChip-root {
+  font-size: 16px;
+}
+>>>>>>> fb1e426982acb339acff623b0fcf145be187d86c
