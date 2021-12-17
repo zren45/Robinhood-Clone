@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .linegraph {
   width: 600px;
 
@@ -15,21 +14,3 @@
   align-items: center;
   justify-content: center;
 }
-=======
-.linegraph {
-  width: 600px;
-
-  margin-top: 30px;
-}
-
-/* p {
-  color: white;
-} */
-.spinnerContainer {
-  width: 500px;
-  height: 196px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
->>>>>>> fb1e426982acb339acff623b0fcf145be187d86c
