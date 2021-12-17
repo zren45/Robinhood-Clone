@@ -1,0 +1,16 @@
+.linegraph {
+  width: 600px;
+
+  margin-top: 30px;
+}
+
+/* p {
+  color: white;
+} */
+.spinnerContainer {
+  width: 500px;
+  height: 196px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
