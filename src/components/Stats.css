@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .stats {
   flex: 0.3;
   padding: 0px 30px 30px 30px;
@@ -34,3 +35,41 @@
 .stats-list {
   border-top: 1px solid #42494d;
 }
+=======
+.stats {
+  flex: 0.3;
+  padding: 0px 30px 30px 30px;
+  display: flex;
+  flex-direction: column;
+  color: rgba(242, 242, 242, 1);
+}
+.stats__container {
+  flex-direction: column;
+  flex: 1;
+  background-color: #1e2023;
+  border-radius: 5px;
+  border: 1px solid #42494d;
+  width: 276px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.stats__header {
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #42494d;
+
+  padding: 20px 20px 10px 20px;
+  font-weight: 500;
+}
+
+.stats__header {
+  font-weight: bold;
+}
+
+.stats-list {
+  border-top: 1px solid #42494d;
+}
+>>>>>>> fb1e426982acb339acff623b0fcf145be187d86c

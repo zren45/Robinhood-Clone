@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .row_container {
   display: flex;
   justify-content: space-between;
@@ -44,3 +45,51 @@
 .row_container:hover {
   background-color: #31363a;
 }
+=======
+.row_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 24px 12px 24px;
+  font-weight: 200;
+}
+
+.row__introheading {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+
+  /* padding-bottom: 5px; */
+}
+
+.row_introParagraph {
+  font-size: 14px;
+  text-align: left;
+  font-weight: 300;
+}
+
+.row__numbers {
+  text-align: end;
+  font-size: 14px;
+}
+
+.row__price {
+  padding-bottom: 4px;
+  font-weight: 200;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.row__percentage {
+  color: #5ac53b;
+  font-weight: lighter;
+}
+
+.row__percentage__negative {
+  color: rgb(255, 80, 0);
+  font-weight: lighter;
+}
+
+.row_container:hover {
+  background-color: #31363a;
+}
+>>>>>>> fb1e426982acb339acff623b0fcf145be187d86c
