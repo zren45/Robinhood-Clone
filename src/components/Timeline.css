@@ -1,0 +1,50 @@
+.timeline__container {
+  display: flex;
+  border-bottom: 1px solid #3b4754;
+  align-items: center;
+  margin-top: 24px;
+}
+.timeline__wrapper {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0px;
+}
+
+.timeline__live {
+  padding: 12px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.timeline__buttons__container {
+  font-size: 14px;
+  display: flex;
+
+  /* justify-content: space-evenly;
+  padding-bottom: 0px; */
+}
+.timeline__button {
+  font-weight: bold;
+  margin-right: 12px;
+  padding-bottom: 3px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: white;
+  border-bottom: 3px solid transparent;
+}
+
+.timeline__button:hover {
+  color: #5ac53b;
+}
+
+.timeline__button:focus {
+  border-bottom: 3px solid #5ac53b;
+}
+
+.active {
+  border-bottom: 3px solid transparent;
+}
+
+/* .timeline__button: hover {
+    border-bottom: 2px solid green; 
+} */
