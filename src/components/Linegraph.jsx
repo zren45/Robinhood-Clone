@@ -1,11 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Timeline from "./Timeline";
 import Spinner from "react-bootstrap/Spinner";
-import axios from "axios";
+
 import "./LineGraph.css";
-import Button from "react-bootstrap/Button";
-import ButtonGroup from "react-bootstrap/ButtonGroup";
-import ButtonToolbar from "react-bootstrap/ButtonToolbar";
 
 //
 import { LineChart, Line, YAxis, Tooltip, ResponsiveContainer } from "recharts";
@@ -47,7 +44,7 @@ function LineGraph() {
       }
     };
     fetchData();
-  }, [KEY_URL]);
+  }, [KEY_URL, BASE_URL]);
 
   return (
     <div className="linegraph">
