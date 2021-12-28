@@ -37,7 +37,7 @@ function LineGraph() {
         setLoading(true);
         const response = await fetch(`${BASE_URL}AAPL${KEY_URL}`);
         const json = await response.json();
-        console.log(json);
+        // console.log(json);
         setChartData(json);
         setLoading(false);
 
