@@ -1,5 +1,5 @@
-<<<<<<< HEAD
 import firebase from "firebase";
+
 const firebaseConfig = {
   apiKey: "AIzaSyAVEzD9xPXRxvBX1vwy4jYSIW2VP2IGR5Q",
   authDomain: "robinhood-12471.firebaseapp.com",
@@ -7,27 +7,12 @@ const firebaseConfig = {
   storageBucket: "robinhood-12471.appspot.com",
   messagingSenderId: "84780397502",
   appId: "1:84780397502:web:377cd8078bdd4a25ebbfef",
+  measurementId: "G-03420N0RM0",
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 
 const db = firebaseApp.firestore();
+const analytics = firebase.analytics();
 
-export { db };
-=======
-import firebase from "firebase";
-const firebaseConfig = {
-  apiKey: "AIzaSyAVEzD9xPXRxvBX1vwy4jYSIW2VP2IGR5Q",
-  authDomain: "robinhood-12471.firebaseapp.com",
-  projectId: "robinhood-12471",
-  storageBucket: "robinhood-12471.appspot.com",
-  messagingSenderId: "84780397502",
-  appId: "1:84780397502:web:377cd8078bdd4a25ebbfef",
-};
-
-const firebaseApp = firebase.initializeApp(firebaseConfig);
-
-const db = firebaseApp.firestore();
-
-export { db };
->>>>>>> fb1e426982acb339acff623b0fcf145be187d86c
+export { db, analytics };
