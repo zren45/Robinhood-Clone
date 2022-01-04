@@ -19,9 +19,8 @@ class Testonboarding extends Component {
             "<b>Click</b> on this switch to between <b>1D/5D/1M/3M/1Y/5Y</b> history of stocks",
         },
         {
-          element: ".row_container",
-          intro:
-            "<b>Click</b> on this switch to between <b>1D/5D/1M/3M/1Y/5Y</b> history of stocks",
+          element: ".stats",
+          intro: "<b>Live</b> data fetched from <b>Finhub API</b>",
           position: "left",
           highlightClass: "background-color:red",
         },
