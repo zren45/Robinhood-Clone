@@ -20,7 +20,7 @@ This is a partial font end clone of the American financial services company Robi
 
 - Portfolio data on Cloud Firestore database
 
-# To-Do Features
+## To-Do Features
 
 - User login
 - Live news feed section with New API
