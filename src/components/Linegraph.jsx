@@ -54,7 +54,12 @@ function LineGraph() {
         </div>
       ) : (
         <ResponsiveContainer width="100%" height={196}>
-          <LineChart width={500} height={300} data={chartData}>
+          <LineChart
+            className="recharts"
+            width={500}
+            height={300}
+            data={chartData}
+          >
             <Tooltip
               cursor={{ stroke: "rgba(138,151,158,1)", strokeWidth: 0.8 }}
               content={CustomTooltip}
