@@ -23,16 +23,10 @@ class Testonboarding extends Component {
           intro: "<b>Live</b> data fetched from <b>Finhub API</b>",
           position: "left",
           highlightClass: "background-color:red",
-        },
-      ],
-      hintsEnabled: false,
-      hints: [
-        {
-          element: ".hello",
-          hint: "Hello hint",
-          hintPosition: "middle-right",
-        },
-      ],
+        }
+      ]
+      
+      
     };
   }
 
@@ -45,6 +39,8 @@ class Testonboarding extends Component {
   };
 
   render() {
+  
+
     return (
       <div>
         <Steps
@@ -52,7 +48,9 @@ class Testonboarding extends Component {
           steps={this.state.steps}
           initialStep={this.state.initialStep}
           onExit={this.onExit}
+          options={{doneLabel:"Done"}}
         />
+        
       </div>
     );
   }
