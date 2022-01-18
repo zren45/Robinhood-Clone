@@ -22,11 +22,12 @@ function Header() {
       </div>
       {/* menuitem*/}
       <div className="header__menuItems">
-        <a href="#">Rewards</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Cash</a>
-        <a href="#">Messages</a>
-        <a href="#">Account</a>
+        <a href="https://github.com/zren45" target="_blank">
+          Github
+        </a>
+        <a href="https://www.zhixiangren.com/" target="_blank">
+          My website
+        </a>
       </div>
     </div>
   );
