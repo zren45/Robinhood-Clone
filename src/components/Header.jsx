@@ -28,6 +28,9 @@ function Header() {
         <a href="https://www.zhixiangren.com/" target="_blank">
           My website
         </a>
+        <a href="https://www.linkedin.com/in/zhixiangren/" target="_blank">
+          Linkedin
+        </a>
       </div>
     </div>
   );
